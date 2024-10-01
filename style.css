@@ -1,0 +1,14 @@
+
+    table, tr, td {
+            border: 2;
+            border-color: black;
+            border-style: inset;
+            table-layout: auto;
+            height: 50px;
+            width: auto;
+        }
+    .content {
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 60px;
+        }
