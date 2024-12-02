@@ -1,4 +1,39 @@
+    h2{
+        text-align: center;
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+        margin: 0px;
+    }
+    body {
+        background-color: rgba(0, 106, 255, 0.379);
+    }
+    .navbar ul{
+        list-style-type: none;
+        background-color: rgba(127, 255, 212, 0.663);
+        padding: 0%;
+        margin: 0px;
+        overflow: hidden;
+        size-adjust: 15px;
+        border: 5px;
+        border-color: black;
+        border-style: dotted;
+    }
+    .navbar a{
+        color: black;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+        text-align: center;
 
+    }
+    .navbar a:hover{
+        background-color: rgba(92, 244, 92, 0.962);
+    }
+    .navbar li{
+        float: left;
+    }
     table, tr, td {
             border: 2;
             border-color: black;
@@ -6,9 +41,15 @@
             table-layout: auto;
             height: auto;
             width: auto;
+            background-color: pink;
         }
     .content {
             margin-left: 200px;
             margin-right: 200px;
             margin-top: 60px;
         }
+    .ethics {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(170, 255, 0, 0.349);
+    }
